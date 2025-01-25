@@ -12,7 +12,7 @@ module.exports = {
         const response = interaction.options.getString('input');
 
         await interaction.reply(
-            `[UPDATED] This is the test command ran by ${interaction.user.username}. Input was: ${response}`
+            `This is the test command ran by ${interaction.user.username}. Input was: ${response}`
         );
     },
 };
